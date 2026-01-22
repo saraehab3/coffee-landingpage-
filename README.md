@@ -1,3 +1,11 @@
+# Coffee Landing Page
+
+This is a landing page for a coffee shop, created with HTML, CSS, and Angular. The project showcases a modern responsive design with animations and interactive sections.
+
+
+
+
+
 # BusinessLanding
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
