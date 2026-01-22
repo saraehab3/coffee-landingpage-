@@ -1,0 +1,58 @@
+
+.sarah{
+    font-weight: bold;
+    // background-color: rgb(46, 42, 42);
+    color:  #c7a17a;
+    // border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+
+
+
+
+
+.navbar {
+    background-color: transparent;
+    height: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  margin-left: 5px;
+  padding-left: 5px;
+  font-size: 22px;
+}
+
+
+
+
+.nav-link {
+  color: #555;
+  font-weight: 500;
+  
+
+}
+
+.active-link {
+ background-color: #8B6F47;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+body {
+  padding-top: 30px; // مهم عشان navbar fixed
+}
+
+.nav-link:hover {
+   // optional: change color on hover
+  transform: scale(1.2); // يكبر النص 20%
+  font-weight: 600;
+}
+

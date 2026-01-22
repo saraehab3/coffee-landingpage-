@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary: #2563eb;
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn.outline {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+// main {
+//   padding-top: 50px; // عشان navbar fixed ما يغطيش المحتوى
+// }
